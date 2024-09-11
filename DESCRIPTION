@@ -1,0 +1,27 @@
+Package: DoddLabQC
+Type: Package
+Title: A package for checking data quality
+Version: 0.1.2
+Author: Zhiwei Zhou
+Maintainer: The package maintainer <yourself@somewhere.net>
+Description: More about what it does (maybe more than one line)
+    Use four spaces when indenting paragraphs within the Description.
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    data.table,
+    DoddLabDatabase,
+    DoddLabMetID,
+    DoddLabRawMS,
+    DoddLabTool,
+    dplyr,
+    ggplot2,
+    massdataset,
+    RaMS,
+    readr,
+    readxl,
+    stringr,
+    tidymass,
+    tidyr
+RoxygenNote: 7.2.3
